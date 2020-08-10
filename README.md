@@ -19,7 +19,8 @@ Yet another Chip-8 virtual machine implementation. SFML library has been used fo
 - 'sound' directory contains the beep WAV audio file. A path to it is passed through -a <path to sound file> option.
 -  Press Escape to exit the game. 
   
-      $ ./chip8vm -r ../ROMs/TETRIS -a ../sound/censor-beep-01.wav -s 16
-      $ ./chip8vm -r ../ROMs/PONG -a ../sound/censor-beep-01.wav 
+        $./chip8vm -r ../ROMs/TETRIS -a ../sound/censor-beep-01.wav -s 16
+        $ ./chip8vm -r ../ROMs/PONG -a ../sound/censor-beep-01.wav 
+ 
  The first example will launch tetris ROM with a 1024x512 window size.
  The second example will launch pong ROM with a default 640x320 window size. 
