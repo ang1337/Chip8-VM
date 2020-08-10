@@ -17,6 +17,7 @@ Yet another Chip-8 virtual machine implementation. SFML library has been used fo
 - By default, the display size is 64x32. The actual window default size is 640x320 (scaled by a factor of 10). If you want to increase the screen size, pass -s <scale factor> option (if you don't pass this option, the size of the window remains 640x320).
 - 'ROMs' directory contains 23 different ROMs that can be executed by the virtual machine. A path to specific ROM is passed through -r <path to ROM> option.
 - 'sound' directory contains the beep WAV audio file. A path to it is passed through -a <path to sound file> option.
+-  Press Escape to exit the game. 
   
       $ ./chip8vm -r ../ROMs/TETRIS -a ../sound/censor-beep-01.wav -s 16
       $ ./chip8vm -r ../ROMs/PONG -a ../sound/censor-beep-01.wav 
