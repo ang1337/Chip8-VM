@@ -10,7 +10,8 @@ Yet another Chip-8 virtual machine implementation. SFML library has been used fo
 - CMake 3.11 and above
 # Installation
     $ git clone https://github.com/ang1337/Chip8-VM.git
-    $ cd Chip8-VM/build
+    $ cd Chip8-VM && mkdir build
+    $ cd build
     $ cmake .. && make
 # Usage
 - By default, the display size is 64x32. The actual window default size is 640x320 (scaled by a factor of 10). If you want to increase the screen size, pass -s <scale factor> option (if you don't pass this option, the size of the window remains 640x320).
